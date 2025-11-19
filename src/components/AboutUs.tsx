@@ -15,7 +15,7 @@ export const AboutUs = () => {
           <div className="max-w-4xl mx-auto text-left bg-background/80 rounded-2xl p-8 border">
             <h3 className="text-2xl font-semibold mb-6 text-center">Our Story</h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Brix began as <strong>Candor</strong> during our high school years when we were working on student council voting systems.
+              Brix began during our high school years when we were working on student council voting systems.
               We quickly realized that the challenge of organizing voices and managing community feedback extended far beyond school hallways.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
@@ -67,42 +67,6 @@ export const AboutUs = () => {
                 Experienced developers and property management professionals
                 working together to solve real-world community challenges.
               </p>
-            </CardContent>
-          </Card>
-        </div>
-
-        <div className="max-w-2xl mx-auto">
-          <Card className="border-0 bg-gradient-to-br from-primary/10 to-secondary/10 shadow-xl">
-            <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Mail className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
-              <p className="text-muted-foreground mb-8">
-                Have questions about our platform or want to learn more?
-                We'd love to hear from you!
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="text-center">
-                  {/* <div className="font-semibold text-lg mb-2">Amay Jain</div> */}
-                  <a
-                    href="mailto:jain.amay04@gmail.com"
-                    className="text-primary hover:text-primary/80 transition-colors"
-                  >
-                    jain.amay04@gmail.com
-                  </a>
-                </div>
-                <div className="text-center">
-                  {/* <div className="font-semibold text-lg mb-2">Srikar Parsi</div> */}
-                  <a
-                    href="mailto:sparsi@gmail.com"
-                    className="text-primary hover:text-primary/80 transition-colors"
-                  >
-                    sparsi@gmail.com
-                  </a>
-                </div>
-              </div>
             </CardContent>
           </Card>
         </div>

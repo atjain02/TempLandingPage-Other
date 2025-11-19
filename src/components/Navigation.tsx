@@ -167,13 +167,8 @@ export const Navigation = () => {
 
           <div className="hidden md:flex items-center gap-3 justify-end">
             <Button size="sm" asChild>
-              <a href="https://apps.apple.com/in/app/candor-simplify-change/id6449984811" target="_blank">
-                For HOAs
-              </a>
-            </Button>
-            <Button size="sm" asChild>
               <a href="https://brix-ai.com" target="_blank">
-                For Property Managers
+                Sign In
               </a>
             </Button>
           </div>
@@ -243,13 +238,8 @@ export const Navigation = () => {
               <hr className="border-border/50" />
               <div className="flex flex-col gap-2">
                 <Button size="sm" asChild>
-                  <a href="https://apps.apple.com/in/app/candor-simplify-change/id6449984811" target="_blank">
-                    For HOAs
-                  </a>
-                </Button>
-                <Button size="sm" asChild>
                   <a href="https://brix-ai.com" target="_blank">
-                    For Property Managers
+                    Sign In
                   </a>
                 </Button>
               </div>
